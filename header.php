@@ -62,7 +62,7 @@
 	============================== -->
 	<!--header-->
 	<?php parallax_hook_header_before(); ?>
-	<?php $ep_page_background = is_single() ? get_the_post_thumbnail_url(get_page_by_path('projetos')) : get_the_post_thumbnail_url($post->post_parent); ?>
+	<?php $ep_page_background = is_single() ? get_the_post_thumbnail_url(get_page_by_path('projetos'), 'full') : get_the_post_thumbnail_url($post->post_parent, 'full'); ?>
 
 	<header itemscope itemtype="http://schema.org/WPHeader" id="masthead" role="banner" data-stellar-background-ratio="0.5" class="header header-style-one site-header <?php echo !is_front_page() ? 'header-page-ep" style="background-image: url(&quot;' . $ep_page_background : '' ?>&quot;);">
 
