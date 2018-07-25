@@ -145,13 +145,13 @@ if ( ! function_exists( 'parallax_one_setup' ) ) :
 
 
 		// Home page images
-		add_image_size( 'ep-both-sides-call', 285, 480, true );
-		add_image_size( 'ep-side-call', 470, 480, true );
+		add_image_size( 'ep-both-sides-call', 285, 480);
+		add_image_size( 'ep-side-call', 470, 480);
 		
 		// Project thumbnails 
 		add_image_size( 'project-thumbnail', 106, 150, true );
 
-		set_post_thumbnail_size(150, 150 );
+		set_post_thumbnail_size(150, 150);
 
 		/**
 		 * Welcome screen
