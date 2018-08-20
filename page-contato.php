@@ -93,37 +93,35 @@
 				</div>	
 			</div> -->
 
-			<div class="col-sm-8">
+			<div class="col-sm-6">
 				<!-- <div class="ep-contact-text"> -->
 					<?php the_content(); ?>
 				<!-- </div> -->
 			</div>
 
-			<div class="col-sm-4">
-				<div class="image-email" style="background-image: url('<?php echo get_site_url() . '/wp-content/themes/Parallax-One/images/icons/Fundo E-mail-no-fields.png'; ?>');">
-
+			<div class="col-sm-6 image-email">
+				<div class="form-email">
 					<h3>Contato</h3>
-						<!-- <form class="form-email">
-						 <div class="form-group">
-						    <input type="text" class="form-control" id="form_nome" placeholder="Nome">
-						  </div>
-						  <div class="form-group">
-						    <input type="email" class="form-control" id="form_email" aria-describedby="emailHelp" placeholder="E-maill">
-						    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-						  </div>
-						  <div class="form-group">
-						    <input type="password" class="form-control" id="form_website" placeholder="Website">
-						  </div>
-						  <div class="form-group">
-						    <textarea class="form-control" id="form_mensagem" placeholder="Mensagem" rows="3"></textarea> 
-						  </div>
-						  <button type="submit" class="btn btn-primary">Enviar</button>
-						</form> -->
-						<?php echo do_shortcode( '[contact-form-7 id="194" title="Formulário de contato 1"]' ) ?>
-
+					<!-- <form class="form-email">
+					 <div class="form-group">
+					    <input type="text" class="form-control" id="form_nome" placeholder="Nome">
+					  </div>
+					  <div class="form-group">
+					    <input type="email" class="form-control" id="form_email" aria-describedby="emailHelp" placeholder="E-maill">
+					    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					  </div>
+					  <div class="form-group">
+					    <input type="password" class="form-control" id="form_website" placeholder="Website">
+					  </div>
+					  <div class="form-group">
+					    <textarea class="form-control" id="form_mensagem" placeholder="Mensagem" rows="3"></textarea> 
+					  </div>
+					  <button type="submit" class="btn btn-primary">Enviar</button>
+					</form> -->
+					<?php echo do_shortcode( '[contact-form-7 id="194" title="Formulário de contato 1"]' ) ?>
+				</div>
 
 					<!-- <img src="../wp-content/themes/Parallax-One/images/icons/Fundo E-mail.png"> -->
-				</div>
 
 				<!-- <div class="box-atuacao light-blue">
 					<div class="atuacao-body">
@@ -165,20 +163,6 @@
 <input type="hidden" name="_wpcf7_container_post" value="45">
 </div> -->
 
-<p><!-- <label> Seu nome (obrigatório) --><br>
-    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span><br>
-<!-- </label> --></p>
-<p><!-- <label> Seu e-mail (obrigatório) --><br>
-    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span><br>
-<!-- </label> --></p>
-<p><!-- <label> Assunto --><br>
-    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span><br>
-<!-- </label> --></p>
-<p><!-- <label> Sua mensagem --><br>
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span><br>
-<!-- </label> --></p>
-<p><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
-<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
 
 <!-- 
 <div role="form" class="wpcf7" id="wpcf7-f194-p45-o1" lang="pt-BR" dir="ltr">

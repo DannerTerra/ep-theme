@@ -5626,6 +5626,7 @@ h2.screen-reader-text {
 		font-size: 15px;
 		line-height: 26px;
 	}
+
 }
 
 
@@ -6121,6 +6122,11 @@ h2.screen-reader-text {
 		font-size: 95%;
 	}
 
+
+	div.image-email {
+		background-size: 100%;
+	}
+
 	.sticky-navigation {
 		/*min-height: 70px;*/
 		min-height: 52px;
@@ -6155,6 +6161,10 @@ h2.screen-reader-text {
 	/*EP SECTION*/
 	.side-image {
 		display: none;
+	}
+
+	div.image-email {
+		background-size: 60%;
 	}
 	/*EP SECTION*/
 
@@ -6464,6 +6474,10 @@ h2.screen-reader-text {
 		float: none;
 		width: auto;
 	}
+
+	div.image-email {
+		background-size: 70%;
+	}
 }
 
 
@@ -6480,6 +6494,10 @@ h2.screen-reader-text {
 		font-size: 13px;
 		font-weight: 400;
 		line-height: 20px;
+	}
+
+	div.image-email {
+		background-size: 80%;
 	}
 
 	h3,
@@ -7785,6 +7803,11 @@ h2.screen-reader-text {
 	.portfolio-entry-mobile-last-item-row {
 		width: 100% !important;
 	}
+
+	/* EP-email-form */
+	div.image-email {
+		background-size: 100%;
+	}
 }
 
 
@@ -8528,16 +8551,34 @@ a.navbar-brand.ifrs-logo img {
 /* Página de Contato*/
 
 .image-email {
-	min-height: 550px;
-	min-width: 400px;
-	background-size: 400px 550px;
+/*	min-height: 550px;
+	min-width: 400px;*/
+/*	height: 550px;
+	width: 400px;*/
+	height: 80%;
+	background-size: 80%;
+	background-image: url('https://ep.epprod.test/wp-content/themes/Parallax-One/images/icons/Fundo E-mail-no-fields.png');
     background-repeat: no-repeat;
-    background-position:center;
-    position: absolute;
-    /*padding-bottom: 100px;*/
+    background-position:top;
+    position: relative;
+    padding-bottom: 200px;
 }
 
-.form-email {
-	padding:20px 50px 50px 50px;
+.image-email .form-email {
+	padding-top:30px
+
+}
+
+ input.wpcf7-form-control, textarea.wpcf7-form-control {
+	padding: 0px 10px;
+    border: 1px solid #dedede;
+    box-shadow: 1px 2px 5px;
+    border-radius: 3px;
+    color: #6b6464;
+    width: 50%;
+}
+
+textarea.wpcf7-textarea {
+	min-height: 80px;
 
 }
