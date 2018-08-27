@@ -1,6 +1,7 @@
 <div class="row team-member-wrap">
-					
-					<div class="col-md-3 team-member-box">
+					<?php the_content(); ?>
+					<?php
+					/*<div class="col-md-3 team-member-box">
 						<div class="team-member border-bottom-hover" data-scrollreveal="enter left after 0.15s over 1s" data-sr-init="true" data-sr-complete="true">
 							<div class="member-pic">
 								<img src="<?php echo get_site_url(); ?>/wp-content/themes/Parallax-One/images/team/2.jpg" alt="Marília da Rosa Goularte">
@@ -45,4 +46,6 @@
 							</div><!-- .member-details -->
 						</div><!-- .team-member -->
 					</div><!-- .team-member -->
+					*/
+					?>
 				</div>
