@@ -52,21 +52,21 @@
 					?>
 				</div>
 			<?php
-			}
+			}else{
 			?>
 			<div itemscope="" itemtype="http://schema.org/WPSideBar" role="complementary" id="sidebar-widgets-area-4" class="col-md-3 col-sm-6 col-xs-12 widget-box" aria-label="Área de Widgets 4" style="border:none;">
 				<div class="group-social">
-					<div id="media_image-5" class="widget widget_media_image" style="margin-bottom:10px;"><img width="220" height="124" src=" <?php echo get_template_directory_uri(); ?>/images/logos/Logo IF barra azul.png" class="image wp-image-117  attachment-full size-full" alt="" style="max-width: 100%;height: auto;">
-				</div>
-				<ul class="social-icons">
-					<li><a href="#"><img src="<?php echo get_template_directory_uri() . "/images/icons/Logo brando do face.png"; ?>"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri() . "/images/icons/Logo branco do tuwiter.png"; ?>"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri() . "/images/icons/Logo branco Linkedin.png"; ?>"></a></li>
-				</ul>
+					<div id="media_image-5" class="widget widget_media_image" style="margin-bottom:10px;"><img width="220" height="124" src=" <?php echo get_template_directory_uri(); ?>/images/logos/Logo IF barra azul.png" class="image wp-image-117  attachment-full size-full" alt="Instituto Federal do Rio Grande do Sul" style="max-width: 100%;height: auto;">
+					</div>
+					<ul class="social-icons">
+						<li><a href="#"><img src="<?php echo get_template_directory_uri() . "/images/icons/Logo brando do face.png"; ?>"  alt="Facebook"></a></li>
+						<li><a href="#"><img src="<?php echo get_template_directory_uri() . "/images/icons/Logo branco do tuwiter.png"; ?>"  alt="Twitter"></a></li>
+						<li><a href="#"><img src="<?php echo get_template_directory_uri() . "/images/icons/Logo branco Linkedin.png"; ?>" alt="LinkedIn"></a></li>
+					</ul>
 				</div>
 				
 			</div>
-
+		<?php } ?>
 		</div><!-- .footer-widget-wrap -->
 
 		<div class="footer-bottom-wrap">
